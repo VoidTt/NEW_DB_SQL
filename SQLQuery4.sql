@@ -1,0 +1,17 @@
+DECLARE @F varchar = '12345678101112'
+DECLARE @V varchar(7) = @F
+DECLARE @D varchar(MAX) = @F
+DECLARE @T nvarchar(10) = 'daefe'
+
+SELECT @V AS RESULT
+UNION ALL
+SELECT @D 
+UNION ALL
+SELECT @D
+UNION ALL
+SELECT @T
+
+
+--go
+--SELECT
+--FROM sys.messages
