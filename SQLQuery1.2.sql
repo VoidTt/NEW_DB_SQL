@@ -1,0 +1,5 @@
+SELECT TOP (1000) [id]
+      ,[name]
+      ,[price]
+      ,[created_at]
+  FROM [db0].[saless].[products]
