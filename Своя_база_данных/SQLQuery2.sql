@@ -1,0 +1,13 @@
+USE master;
+GO
+
+ALTER DATABASE ShopDB
+ADD FILEGROUP A1;
+GO
+
+ALTER DATABASE ShopDB
+ADD FILEGROUP A2;
+GO
+
+--SELECT
+--    SERVERPROPERTY('InstanceDefaultDataPath') AS DataPath;
